@@ -1,0 +1,4 @@
+#!/bin/sh
+wget http://127.0.0.1:5004/get_tx
+cat get_tx
+wget --post-data 'foo' http://127.0.0.1:5004/finish
